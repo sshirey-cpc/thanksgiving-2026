@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thanksgiving 2026 Trip Ideas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf6ee; --card:#fffdf9; --ink:#2b2118; --muted:#6f6254; --line:#e8dccb;
+  --rust:#b5532a; --gold:#d99a2b; --sage:#5f7a5a; --sea:#2f6f86; --plum:#7a4b6b;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#1d1813; --card:#27201a; --ink:#f3e9dc; --muted:#b9a993; --line:#3b3129;
+  --rust:#e07a4c; --gold:#efb54f; --sage:#8fb088; --sea:#62a8c2; --plum:#c28ab1;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header{padding:56px 0 32px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--rust);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:13px}
+h1{font-family:Fraunces,serif;font-weight:800;font-size:clamp(34px,6vw,58px);line-height:1.05;margin:8px 0 14px}
+.lede{color:var(--muted);max-width:640px;font-size:18px;margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px}
+.chip b{color:var(--rust)}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:8px;overflow-x:auto;padding:10px 16px}
+nav button{flex:none;font:500 14px Inter,sans-serif;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
+nav button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+section{padding:36px 0 8px}
+h2{font-family:Fraunces,serif;font-size:28px;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;border-top:5px solid var(--c,var(--rust));display:flex;flex-direction:column}
+.card h3{margin:0 0 2px;font-size:19px}
+.where{color:var(--muted);font-size:14px;margin-bottom:10px}
+.drive{display:inline-block;font-size:13px;font-weight:600;color:var(--c);margin-bottom:10px}
+.card ul{margin:0;padding-left:18px}
+.card li{margin:3px 0}
+.tag{margin-top:auto;padding-top:12px;font-size:13px;color:var(--muted)}
+.beach{--c:var(--sea)} .mtn{--c:var(--sage)} .city{--c:var(--plum)} .fly{--c:var(--gold)}
+.tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.tip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.tip h3{margin:0 0 6px;font-size:16px;color:var(--rust)}
+.tip p{margin:0;color:var(--muted)}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;max-width:520px;margin-top:8px}
+.d{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 4px;text-align:center;font-size:13px}
+.d small{display:block;color:var(--muted);font-size:11px}
+.d.go{background:color-mix(in srgb,var(--sage) 22%,var(--card))}
+.d.tg{background:var(--rust);color:#fff;border-color:var(--rust)} .d.tg small{color:#fde9df}
+footer{padding:40px 0 60px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:40px}
+.hide{display:none}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Family Trip · 5 people · from New Orleans</div>
+    <h1>Thanksgiving 2026<br>Trip Ideas</h1>
+    <p class="lede">Last year was camping at Gulf Shores State Park. Here are options for 3–4 days mid-week — within a 7–8 hour drive, or a cheap flight out of MSY.</p>
+    <div class="facts">
+      <span class="chip">Thanksgiving: <b>Thu, Nov 26</b></span>
+      <span class="chip">Best windows: <b>Tue–Fri</b> or <b>Wed–Sat</b></span>
+      <span class="chip">Leave <b>Tuesday AM</b> to beat traffic</span>
+    </div>
+  </div>
+</header>
+
+<nav><div class="wrap" id="filters">
+  <button class="on" data-f="all">All ideas</button>
+  <button data-f="beach">🏖️ Beach camping</button>
+  <button data-f="mtn">🍂 Mountains &amp; fall color</button>
+  <button data-f="city">🎄 City + holiday lights</button>
+  <button data-f="fly">✈️ Cheap flights</button>
+</div></nav>
+
+<main class="wrap">
+  <section data-g="beach">
+    <h2>Beach camping, somewhere new</h2>
+    <p class="sub">Same vibe as Gulf Shores, quieter beaches.</p>
+    <div class="grid">
+      <article class="card beach">
+        <h3>St. George Island / St. Joseph Peninsula</h3>
+        <div class="where">Florida Panhandle state parks</div>
+        <span class="drive">🚗 ~5.5–6 hrs</span>
+        <ul><li>Wild dunes, empty late-November beaches</li><li>Bay-side kayaking</li><li>Great stargazing</li></ul>
+        <div class="tag">Best for: the most "away from it all" feel</div>
+      </article>
+      <article class="card beach">
+        <h3>Topsail Hill Preserve State Park</h3>
+        <div class="where">Near Santa Rosa Beach, FL</div>
+        <span class="drive">🚗 ~4 hrs</span>
+        <ul><li>Campground plus bungalows if you want a roof</li><li>Close to Seaside &amp; Grayton Beach</li><li>Easy to grab a meal out</li></ul>
+        <div class="tag">Best for: shortest drive, camp-or-cabin flexibility</div>
+      </article>
+    </div>
+  </section>
+
+  <section data-g="mtn">
+    <h2>Mountains &amp; fall color</h2>
+    <p class="sub">Cool weather, hikes, cabins, maybe the last of the leaves.</p>
+    <div class="grid">
+      <article class="card mtn">
+        <h3>Hot Springs, AR</h3>
+        <div class="where">National park right in town</div>
+        <span class="drive">🚗 ~6.5 hrs</span>
+        <ul><li>Bathhouse Row &amp; easy hikes</li><li>Lake Ouachita / Lake Catherine cabins &amp; sites</li><li>Garvan Gardens holiday lights (usually open by Thanksgiving)</li></ul>
+        <div class="tag">Best for: mix of outdoors and town</div>
+      </article>
+      <article class="card mtn">
+        <h3>Chattanooga, TN</h3>
+        <div class="where">Lookout Mountain area</div>
+        <span class="drive">🚗 ~7.5 hrs</span>
+        <ul><li>Tennessee Aquarium</li><li>Ruby Falls &amp; Rock City holiday lights</li><li>Very kid-friendly</li></ul>
+        <div class="tag">Best for: most to do in bad weather</div>
+      </article>
+      <article class="card mtn">
+        <h3>DeSoto State Park &amp; Little River Canyon</h3>
+        <div class="where">Northeast Alabama</div>
+        <span class="drive">🚗 ~6.5 hrs</span>
+        <ul><li>Waterfalls &amp; canyon overlooks</li><li>Rustic cabins and campsites</li><li>Cheaper, less crowded</li></ul>
+        <div class="tag">Best for: budget + nature</div>
+      </article>
+    </div>
+  </section>
+
+  <section data-g="city">
+    <h2>City + holiday kickoff</h2>
+    <p class="sub">Christmas lights start the day after Thanksgiving.</p>
+    <div class="grid">
+      <article class="card city">
+        <h3>San Antonio, TX</h3>
+        <div class="where">River Walk &amp; Hill Country</div>
+        <span class="drive">🚗 ~8 hrs</span>
+        <ul><li>River Walk lights + lighted boat parade (Fri after Thanksgiving)</li><li>The Alamo &amp; the Pearl</li><li>Natural Bridge Caverns day trip</li></ul>
+        <div class="tag">Best for: big holiday-season energy</div>
+      </article>
+      <article class="card city">
+        <h3>Memphis, TN</h3>
+        <div class="where">Downtown + Shelby Farms</div>
+        <span class="drive">🚗 ~6 hrs</span>
+        <ul><li>National Civil Rights Museum</li><li>Zoo Lights</li><li>Beale Street barbecue, Shelby Farms biking</li></ul>
+        <div class="tag">Best for: history + food</div>
+      </article>
+    </div>
+  </section>
+
+  <section data-g="fly">
+    <h2>Cheap flights from MSY</h2>
+    <p class="sub">Usually cheapest nonstops: Southwest, Spirit, Frontier, Breeze.</p>
+    <div class="grid">
+      <article class="card fly">
+        <h3>Orlando · Tampa · Fort Lauderdale</h3>
+        <div class="where">Florida springs &amp; Gulf beaches</div>
+        <span class="drive">✈️ Nonstop, ~1.5–2 hrs</span>
+        <ul><li>Swim/paddle the springs as a theme-park alternative</li><li>Flying on Thanksgiving Day is often cheapest</li><li>Watch out: 5 tickets + rental car often beats gas cost</li></ul>
+        <div class="tag">Best for: warm weather, short travel time</div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>The week at a glance</h2>
+    <p class="sub">Green = good travel days.</p>
+    <div class="cal">
+      <div class="d">Sun<small>22</small></div>
+      <div class="d">Mon<small>23</small></div>
+      <div class="d go">Tue<small>24</small></div>
+      <div class="d go">Wed<small>25</small></div>
+      <div class="d tg">Thu<small>26 🦃</small></div>
+      <div class="d go">Fri<small>27</small></div>
+      <div class="d go">Sat<small>28</small></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Planning tips</h2>
+    <div class="tips">
+      <div class="tip"><h3>Book soon</h3><p>State park cabins and campsites fill up for Thanksgiving week, often more than a month ahead.</p></div>
+      <div class="tip"><h3>Keep the meal easy</h3><p>Smoke a turkey breast or fry a turkey at the site, or pick up a pre-cooked dinner from a grocery store.</p></div>
+      <div class="tip"><h3>Beat the traffic</h3><p>Leaving Tuesday morning avoids the worst of the Wednesday rush.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Drive times are approximate from New Orleans. Check park reservation sites and event dates before booking.</div></footer>
+
+<script>
+const btns=document.querySelectorAll('#filters button');
+btns.forEach(b=>b.onclick=()=>{
+  btns.forEach(x=>x.classList.toggle('on',x===b));
+  const f=b.dataset.f;
+  document.querySelectorAll('section[data-g]').forEach(s=>s.classList.toggle('hide',f!=='all'&&s.dataset.g!==f));
+});
+</script>
+</body>
+</html>
